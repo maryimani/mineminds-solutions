@@ -1,0 +1,85 @@
+.form-bg{
+    width: 100%;
+    background-color: rgba(4, 136, 252, 0.473);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.row-bg{
+    margin-left: 40%;
+}
+.form-horizontal{
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+    
+}
+.form-horizontal .form-icon{
+    color: white;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+    
+}
+.form-horizontal .title{
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.form-horizontal .hero{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+    border: none;
+}
+.form-horizontal .hero:hover{
+    background-color: rgb(7, 7, 7)!important;
+}
+.form-horizontal .form-group{
+    margin: 0 0 10px;
+    position: relative;
+}   
+.form-horizontal .input-icon{
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 13px;
+    color: brown;
+}
+.form-horizontal .form-control{
+    color: #555;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 5px 15px 5px 35px;
+    border: none;
+}
+.form-horizontal .form-control::placeholder{
+    color: rgba(0,0,0,0.7);
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.form-horizontal .form-options{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.form-horizontal .form-options li a{
+    letter-spacing: 0.5px;
+    color: #fff!important;
+    margin: 0 0 10px;
+    line-height: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.form-horizontal .form-options li a:hover{
+    text-decoration: underline;
+    color: black!important;
+}
